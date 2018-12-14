@@ -4,6 +4,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp", "LaundryApp\LaundryApp.csproj", "{F46834BF-961D-4F6C-B36C-7CE7677661FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27CD8E14-32D8-45AE-BDA1-6110E387C865} = {27CD8E14-32D8-45AE-BDA1-6110E387C865}
+		{0ACA791A-4E71-41AE-8CA3-38F0C793AD72} = {0ACA791A-4E71-41AE-8CA3-38F0C793AD72}
+		{B4B23E73-0F6A-4486-95CD-45CEE4928568} = {B4B23E73-0F6A-4486-95CD-45CEE4928568}
+		{44B060BB-1CDA-4060-9B63-A1992AA0BBAB} = {44B060BB-1CDA-4060-9B63-A1992AA0BBAB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager", "UserManager\UserManager.csproj", "{5B8D64C6-7D7B-4AA4-A932-488D6777E848}"
 EndProject
@@ -12,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients", "Clients\Clients.csproj", "{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traitements", "Traitements\Traitements.csproj", "{44B060BB-1CDA-4060-9B63-A1992AA0BBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries", "Libraries\Libraries.csproj", "{27CD8E14-32D8-45AE-BDA1-6110E387C865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +58,12 @@ Global
 		{44B060BB-1CDA-4060-9B63-A1992AA0BBAB}.Main|Any CPU.Build.0 = Release|Any CPU
 		{44B060BB-1CDA-4060-9B63-A1992AA0BBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44B060BB-1CDA-4060-9B63-A1992AA0BBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CD8E14-32D8-45AE-BDA1-6110E387C865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CD8E14-32D8-45AE-BDA1-6110E387C865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CD8E14-32D8-45AE-BDA1-6110E387C865}.Main|Any CPU.ActiveCfg = Release|Any CPU
+		{27CD8E14-32D8-45AE-BDA1-6110E387C865}.Main|Any CPU.Build.0 = Release|Any CPU
+		{27CD8E14-32D8-45AE-BDA1-6110E387C865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CD8E14-32D8-45AE-BDA1-6110E387C865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

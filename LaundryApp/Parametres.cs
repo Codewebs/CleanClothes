@@ -16,5 +16,10 @@ namespace LaundryApp
         {
             InitializeComponent();
         }
+
+        private void comboBoxLangue_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

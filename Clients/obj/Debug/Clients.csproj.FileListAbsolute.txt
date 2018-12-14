@@ -1,0 +1,7 @@
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Clients\bin\Debug\Clients.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Clients\bin\Debug\Clients.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Clients\obj\Debug\Clients.csprojResolveAssemblyReference.cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Clients\obj\Debug\Clients.ConsulterClients.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Clients\obj\Debug\Clients.csproj.GenerateResource.Cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Clients\obj\Debug\Clients.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Clients\obj\Debug\Clients.pdb

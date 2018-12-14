@@ -16,6 +16,10 @@ namespace LaundryApp
         public Main()
         {
             InitializeComponent();
+            DateTime now = DateTime.Now;
+            string s = now.DayOfWeek.ToString();
+            string today = DateTime.Now.ToString("MM'/'dd' : ' HH':'mm");
+            labelDate.Text = s+" "+today;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -41,6 +45,19 @@ namespace LaundryApp
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_Param_Click(object sender, EventArgs e)
+        {
+            Parametres Check = new Parametres();            
+            Check.Show();
+            /* Hide(); */
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Starter Check = new Starter();
+            Check.Show();
         }
 
   

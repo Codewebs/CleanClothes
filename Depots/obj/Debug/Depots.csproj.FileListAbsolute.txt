@@ -1,0 +1,8 @@
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\bin\Debug\Depots.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\bin\Debug\Depots.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\obj\Debug\Depots.chooseDepots.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\obj\Debug\Depots.ConsulterDepot.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\obj\Debug\Depots.EnregistrerDepot.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\obj\Debug\Depots.csproj.GenerateResource.Cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\obj\Debug\Depots.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Depots\obj\Debug\Depots.pdb

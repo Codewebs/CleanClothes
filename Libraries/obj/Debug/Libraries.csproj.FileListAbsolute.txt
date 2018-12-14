@@ -1,0 +1,4 @@
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Libraries\bin\Debug\Libraries.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Libraries\bin\Debug\Libraries.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Libraries\obj\Debug\Libraries.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Libraries\obj\Debug\Libraries.pdb

@@ -1,0 +1,7 @@
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Traitements\bin\Debug\Traitements.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Traitements\bin\Debug\Traitements.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Traitements\obj\Debug\Traitements.ChooseT.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Traitements\obj\Debug\Traitements.Properties.Resources.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Traitements\obj\Debug\Traitements.csproj.GenerateResource.Cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Traitements\obj\Debug\Traitements.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\Traitements\obj\Debug\Traitements.pdb

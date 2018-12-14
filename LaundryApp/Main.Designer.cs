@@ -35,19 +35,19 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxUserPic = new System.Windows.Forms.PictureBox();
             this.lab_userConnect = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.buttonG_Personnel = new System.Windows.Forms.Button();
+            this.buttonStats = new System.Windows.Forms.Button();
+            this.buttonFicheTraitement = new System.Windows.Forms.Button();
             this.button_Param = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonClient = new System.Windows.Forms.Button();
+            this.buttonDepot = new System.Windows.Forms.Button();
             this.linkLabel = new System.Windows.Forms.LinkLabel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelAppName = new System.Windows.Forms.Label();
             this.splitter2 = new System.Windows.Forms.Splitter();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -67,34 +67,37 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.websiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBoxAppLogo = new System.Windows.Forms.PictureBox();
+            this.panelHeader = new System.Windows.Forms.Panel();
+            this.panelFooter = new System.Windows.Forms.Panel();
+            this.labelDate = new System.Windows.Forms.Label();
+            this.labelAutors = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserPic)).BeginInit();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAppLogo)).BeginInit();
+            this.panelHeader.SuspendLayout();
+            this.panelFooter.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panelFooter);
+            this.panel1.Controls.Add(this.panelHeader);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.buttonG_Personnel);
+            this.panel1.Controls.Add(this.buttonStats);
+            this.panel1.Controls.Add(this.buttonFicheTraitement);
             this.panel1.Controls.Add(this.button_Param);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.buttonClient);
+            this.panel1.Controls.Add(this.buttonDepot);
             this.panel1.Controls.Add(this.linkLabel);
             this.panel1.Controls.Add(this.splitter2);
             this.panel1.Controls.Add(this.splitter1);
@@ -135,21 +138,21 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.pictureBoxUserPic);
             this.panel2.Controls.Add(this.lab_userConnect);
-            this.panel2.Location = new System.Drawing.Point(852, 27);
+            this.panel2.Location = new System.Drawing.Point(841, 21);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(125, 92);
+            this.panel2.Size = new System.Drawing.Size(121, 92);
             this.panel2.TabIndex = 17;
             // 
-            // pictureBox1
+            // pictureBoxUserPic
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(44, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(58, 50);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxUserPic.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxUserPic.Image")));
+            this.pictureBoxUserPic.Location = new System.Drawing.Point(44, 3);
+            this.pictureBoxUserPic.Name = "pictureBoxUserPic";
+            this.pictureBoxUserPic.Size = new System.Drawing.Size(58, 50);
+            this.pictureBoxUserPic.TabIndex = 16;
+            this.pictureBoxUserPic.TabStop = false;
             // 
             // lab_userConnect
             // 
@@ -192,37 +195,37 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Gestion du personnel";
             // 
-            // button6
+            // buttonG_Personnel
             // 
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(103, 403);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(199, 116);
-            this.button6.TabIndex = 11;
-            this.button6.UseVisualStyleBackColor = true;
+            this.buttonG_Personnel.Image = ((System.Drawing.Image)(resources.GetObject("buttonG_Personnel.Image")));
+            this.buttonG_Personnel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonG_Personnel.Location = new System.Drawing.Point(103, 403);
+            this.buttonG_Personnel.Name = "buttonG_Personnel";
+            this.buttonG_Personnel.Size = new System.Drawing.Size(199, 116);
+            this.buttonG_Personnel.TabIndex = 11;
+            this.buttonG_Personnel.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // buttonStats
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Indigo;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(402, 403);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(202, 116);
-            this.button5.TabIndex = 10;
-            this.button5.UseVisualStyleBackColor = true;
+            this.buttonStats.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonStats.ForeColor = System.Drawing.Color.Indigo;
+            this.buttonStats.Image = ((System.Drawing.Image)(resources.GetObject("buttonStats.Image")));
+            this.buttonStats.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonStats.Location = new System.Drawing.Point(402, 403);
+            this.buttonStats.Name = "buttonStats";
+            this.buttonStats.Size = new System.Drawing.Size(202, 116);
+            this.buttonStats.TabIndex = 10;
+            this.buttonStats.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // buttonFicheTraitement
             // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(708, 210);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 114);
-            this.button4.TabIndex = 9;
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttonFicheTraitement.Image = ((System.Drawing.Image)(resources.GetObject("buttonFicheTraitement.Image")));
+            this.buttonFicheTraitement.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonFicheTraitement.Location = new System.Drawing.Point(708, 210);
+            this.buttonFicheTraitement.Name = "buttonFicheTraitement";
+            this.buttonFicheTraitement.Size = new System.Drawing.Size(200, 114);
+            this.buttonFicheTraitement.TabIndex = 9;
+            this.buttonFicheTraitement.UseVisualStyleBackColor = true;
             // 
             // button_Param
             // 
@@ -234,26 +237,27 @@
             this.button_Param.Size = new System.Drawing.Size(200, 109);
             this.button_Param.TabIndex = 8;
             this.button_Param.UseVisualStyleBackColor = true;
+            this.button_Param.Click += new System.EventHandler(this.button_Param_Click);
             // 
-            // button2
+            // buttonClient
             // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(402, 210);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(202, 114);
-            this.button2.TabIndex = 7;
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonClient.Image = ((System.Drawing.Image)(resources.GetObject("buttonClient.Image")));
+            this.buttonClient.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonClient.Location = new System.Drawing.Point(402, 210);
+            this.buttonClient.Name = "buttonClient";
+            this.buttonClient.Size = new System.Drawing.Size(202, 114);
+            this.buttonClient.TabIndex = 7;
+            this.buttonClient.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // buttonDepot
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(103, 210);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 114);
-            this.button1.TabIndex = 6;
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonDepot.Image = ((System.Drawing.Image)(resources.GetObject("buttonDepot.Image")));
+            this.buttonDepot.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonDepot.Location = new System.Drawing.Point(103, 210);
+            this.buttonDepot.Name = "buttonDepot";
+            this.buttonDepot.Size = new System.Drawing.Size(199, 114);
+            this.buttonDepot.TabIndex = 6;
+            this.buttonDepot.UseVisualStyleBackColor = true;
             // 
             // linkLabel
             // 
@@ -266,16 +270,16 @@
             this.linkLabel.Text = "laundry App";
             this.linkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
-            // label1
+            // labelAppName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(281, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(416, 69);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Clean Clothes";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelAppName.AutoSize = true;
+            this.labelAppName.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAppName.Location = new System.Drawing.Point(222, 24);
+            this.labelAppName.Name = "labelAppName";
+            this.labelAppName.Size = new System.Drawing.Size(416, 69);
+            this.labelAppName.TabIndex = 0;
+            this.labelAppName.Text = "Clean Clothes";
+            this.labelAppName.Click += new System.EventHandler(this.label1_Click);
             // 
             // splitter2
             // 
@@ -414,7 +418,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
@@ -423,22 +427,51 @@
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
-            // pictureBox2
+            // pictureBoxAppLogo
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(158, 27);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(117, 120);
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxAppLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAppLogo.Image")));
+            this.pictureBoxAppLogo.Location = new System.Drawing.Point(9, 3);
+            this.pictureBoxAppLogo.Name = "pictureBoxAppLogo";
+            this.pictureBoxAppLogo.Size = new System.Drawing.Size(117, 120);
+            this.pictureBoxAppLogo.TabIndex = 21;
+            this.pictureBoxAppLogo.TabStop = false;
             // 
-            // panel3
+            // panelHeader
             // 
-            this.panel3.BackColor = System.Drawing.Color.Teal;
-            this.panel3.Location = new System.Drawing.Point(3, 27);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(971, 131);
-            this.panel3.TabIndex = 22;
+            this.panelHeader.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panelHeader.Controls.Add(this.panel2);
+            this.panelHeader.Controls.Add(this.pictureBoxAppLogo);
+            this.panelHeader.Controls.Add(this.labelAppName);
+            this.panelHeader.Location = new System.Drawing.Point(3, 27);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(971, 131);
+            this.panelHeader.TabIndex = 22;
+            // 
+            // panelFooter
+            // 
+            this.panelFooter.Controls.Add(this.labelAutors);
+            this.panelFooter.Controls.Add(this.labelDate);
+            this.panelFooter.Location = new System.Drawing.Point(3, 615);
+            this.panelFooter.Name = "panelFooter";
+            this.panelFooter.Size = new System.Drawing.Size(974, 33);
+            this.panelFooter.TabIndex = 23;
+            // 
+            // labelDate
+            // 
+            this.labelDate.AutoSize = true;
+            this.labelDate.Location = new System.Drawing.Point(9, 11);
+            this.labelDate.Name = "labelDate";
+            this.labelDate.Size = new System.Drawing.Size(0, 13);
+            this.labelDate.TabIndex = 0;
+            // 
+            // labelAutors
+            // 
+            this.labelAutors.AutoSize = true;
+            this.labelAutors.Location = new System.Drawing.Point(841, 11);
+            this.labelAutors.Name = "labelAutors";
+            this.labelAutors.Size = new System.Drawing.Size(93, 13);
+            this.labelAutors.TabIndex = 1;
+            this.labelAutors.Text = "Powered by : XXX";
             // 
             // Main
             // 
@@ -456,10 +489,14 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUserPic)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAppLogo)).EndInit();
+            this.panelHeader.ResumeLayout(false);
+            this.panelHeader.PerformLayout();
+            this.panelFooter.ResumeLayout(false);
+            this.panelFooter.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -468,7 +505,7 @@
 
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelAppName;
         private System.Windows.Forms.LinkLabel linkLabel;
         private System.Windows.Forms.Splitter splitter2;
         private System.Windows.Forms.Splitter splitter1;
@@ -489,23 +526,26 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem websiteToolStripMenuItem;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonG_Personnel;
+        private System.Windows.Forms.Button buttonStats;
+        private System.Windows.Forms.Button buttonFicheTraitement;
         private System.Windows.Forms.Button button_Param;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonClient;
+        private System.Windows.Forms.Button buttonDepot;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxUserPic;
         private System.Windows.Forms.Label lab_userConnect;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBoxAppLogo;
+        private System.Windows.Forms.Panel panelHeader;
+        private System.Windows.Forms.Panel panelFooter;
+        private System.Windows.Forms.Label labelAutors;
+        private System.Windows.Forms.Label labelDate;
     }
 }
 
