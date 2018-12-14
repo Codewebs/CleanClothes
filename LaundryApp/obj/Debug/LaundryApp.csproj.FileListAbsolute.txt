@@ -1,0 +1,9 @@
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\bin\Debug\LaundryApp.exe.config
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\bin\Debug\LaundryApp.exe
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\bin\Debug\LaundryApp.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.csprojResolveAssemblyReference.cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.Properties.Resources.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.csproj.GenerateResource.Cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.exe
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.Main.resources

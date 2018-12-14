@@ -1,0 +1,10 @@
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.Login.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.Properties.Resources.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.csproj.GenerateResource.Cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\bin\Debug\UserManager.exe.config
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\bin\Debug\UserManager.exe
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\bin\Debug\UserManager.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.exe
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.csprojResolveAssemblyReference.cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.Register.resources
