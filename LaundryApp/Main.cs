@@ -60,6 +60,18 @@ namespace LaundryApp
             Check.Show();
         }
 
+        private void buttonG_Personnel_Click(object sender, EventArgs e)
+        {
+            GestionPersonnel gest = new GestionPersonnel();
+            gest.Show();
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
   
     }
 }

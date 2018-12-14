@@ -8,3 +8,4 @@ C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\D
 C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.pdb
 C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.csprojResolveAssemblyReference.cache
 C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.Register.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\UserManager\obj\Debug\UserManager.GestionPersonnel.resources
