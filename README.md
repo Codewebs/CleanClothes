@@ -1,6 +1,7 @@
 ## 💚 CleanClothes
 Laundry Administrative application
 
+[![Crystal Report](https://img.shields.io/badge/CrystalReports%20Ninja-v0.55-blue.svg)](https://github.com/rainforestnet/CrystalReportsNinja)
 
 
 ## Getting Started
@@ -15,3 +16,6 @@ Laundry Administrative application
 
 * [mysql](https://www.npmjs.com/package/mysql)
 * [xampp](https://www.apachefriends.org/fr/index.html)
+* [Csharp](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [SMSLIB](https://github.com/tdelenikas/smslib)
+* [Crystal Report](https://github.com/rainforestnet/CrystalReportsNinja)
