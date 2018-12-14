@@ -1,7 +1,9 @@
 ## 💚 CleanClothes
 Laundry Administrative application
 
-[![Crystal Report](https://img.shields.io/badge/CrystalReports%20Ninja-v0.55-blue.svg)](https://github.com/rainforestnet/CrystalReportsNinja)
+[![Crystal Report](https://img.shields.io/badge/CrystalReports%20Ninja-v13.0-blue.svg)](https://github.com/rainforestnet/CrystalReportsNinja)
+[![Crystal Report](https://img.shields.io/badge/Csharp-v7.0-red.svg)](https://csharp-source.net/)
+[![Crystal Report](https://img.shields.io/badge/Xampp-v5.0-green.svg)](https://www.apachefriends.org/fr/index.html)
 
 
 ## Getting Started
