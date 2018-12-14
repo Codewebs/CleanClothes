@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp", "LaundryApp\La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager", "UserManager\UserManager.csproj", "{5B8D64C6-7D7B-4AA4-A932-488D6777E848}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Depots", "Depots\Depots.csproj", "{B4B23E73-0F6A-4486-95CD-45CEE4928568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients", "Clients\Clients.csproj", "{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,18 @@ Global
 		{5B8D64C6-7D7B-4AA4-A932-488D6777E848}.Main|Any CPU.Build.0 = Release|Any CPU
 		{5B8D64C6-7D7B-4AA4-A932-488D6777E848}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B8D64C6-7D7B-4AA4-A932-488D6777E848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B23E73-0F6A-4486-95CD-45CEE4928568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B23E73-0F6A-4486-95CD-45CEE4928568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B23E73-0F6A-4486-95CD-45CEE4928568}.Main|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B23E73-0F6A-4486-95CD-45CEE4928568}.Main|Any CPU.Build.0 = Release|Any CPU
+		{B4B23E73-0F6A-4486-95CD-45CEE4928568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B23E73-0F6A-4486-95CD-45CEE4928568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}.Main|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}.Main|Any CPU.Build.0 = Release|Any CPU
+		{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACA791A-4E71-41AE-8CA3-38F0C793AD72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

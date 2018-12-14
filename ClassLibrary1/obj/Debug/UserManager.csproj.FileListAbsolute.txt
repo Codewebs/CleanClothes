@@ -1,0 +1,9 @@
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\obj\Debug\UserManager.csprojResolveAssemblyReference.cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\obj\Debug\ClassLibrary1.Login.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\obj\Debug\UserManager.csproj.GenerateResource.Cache
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\ClassLibrary1\obj\Debug\UserManager.Properties.Resources.resources

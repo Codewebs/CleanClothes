@@ -7,3 +7,5 @@ C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\De
 C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.exe
 C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.pdb
 C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\obj\Debug\LaundryApp.Main.resources
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\bin\Debug\UserManager.exe
+C:\Users\Envy\Documents\Visual Studio 2013\Projects\LaundryApp\LaundryApp\bin\Debug\UserManager.pdb
